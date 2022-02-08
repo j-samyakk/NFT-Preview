@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+hr{
+    border-color: hsl(215, 32%, 27%);
+    border-style: none none solid none;
+    width: 90%;
+    margin: auto;
+}
+
+p{
+    font-family: 'Outfit',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content{
+    width: 30%;
+    margin:5% auto;
+    border-radius: 1rem;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.image{
+    position: relative;
+}
+
+.equilibrium-img{
+    display: block;
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 1rem;
+}
+
+.cyan-hover-state{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background-color: hsl(178, 100%, 50%, 50%);
+    width: 90%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 1rem;
+}
+
+.eye-img{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+.cyan-hover-state:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+.heading{
+    margin:0 0 5% 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.heading :hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.description{
+    margin: 0 0 5% 5%;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.price{
+    display: inline-block;
+    margin: 0 0 5% 5%;
+    color: cyan;
+}
+
+.price-img{
+    display: inline-block;
+}
+
+.price-p{
+    padding: 4px;
+    display: inline-block;
+}
+
+.time-left{
+    display: inline-block;
+    float: right;
+    margin:0 5% 5% 0;
+}
+
+.time-left-p{
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+    padding: 4px;
+}
+
+.footer{
+    position: relative;
+}
+
+.me-img{
+    width: 3rem;
+    margin: 5%;
+    border: 2px solid white;
+    border-radius: 10rem;
+}
+
+.name-p{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display: inline-block;
+}
+
+.name{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.name:hover{
+    color: cyan;
+}
+
+@media screen and (max-width: 728px) {
+    .main-content{
+        width: 80%;
+    }
+}
